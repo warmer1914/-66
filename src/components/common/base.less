@@ -81,7 +81,7 @@ html,body {
 }
 
 /*水平垂直居中*/
-//.container {
+//.containers {
 //  width: 1000px;
 //  height: 600px;
 //  overflow: hidden;
@@ -93,6 +93,14 @@ html,body {
 //  left: 0;
 //  right: 0;
 //}
+
+//主要布局
+.mainContent{
+  width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 
 /*文字居中*/
 .text-center {
@@ -235,3 +243,10 @@ p{
 // select.baseSelect::-ms-expand {
 //   display: none;
 // }
+
+//设置主屏幕媒体查询
+@media screen and (max-width: 1370px) {
+  .mainContent{
+    width: 1180px;
+  }
+}

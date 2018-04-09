@@ -6,6 +6,8 @@ import router from './router'
 import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
+import 'layui-src/src/css/layui.css'
+import 'layui-src/src/layui.js'
 import $http from 'axios'
 import Plugin from './components/plugin'
 Vue.use(Plugin)

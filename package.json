@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "layui-src": "^2.2.5",
     "less": "^3.0.1",
     "less-loader": "^4.1.0",
     "popper.js": "^1.14.3",
