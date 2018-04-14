@@ -124,7 +124,6 @@
         .search-address{
           line-height: 56px;
           margin: 0 auto;
-          overflow: hidden;
           width: 50%;
           z-index: 900;
           transition: all .8s ease;
